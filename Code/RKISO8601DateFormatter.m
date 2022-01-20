@@ -191,7 +191,7 @@ static NSMutableDictionary *timeZonesByOffset;
 
 	NSUInteger
     //Date
-    year,
+    year = 0U,
     month_or_week = 0U,
     day = 0U,
     //Time
